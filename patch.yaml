@@ -1,0 +1,5 @@
+metadata:
+  labels:
+    product: myproduct
+    department: research
+    app.kubernetes.io/instance: just-to-validate-it-override-helm

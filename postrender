@@ -1,0 +1,4 @@
+#!/bin/bash
+rm -f all.yaml
+cat <&0 > all.yaml
+yq '. *= load("patch.yaml")' all.yaml 2> /dev/null && rm all.yaml
